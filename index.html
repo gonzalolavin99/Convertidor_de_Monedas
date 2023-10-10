@@ -10,7 +10,7 @@
     <h1>Conversor de monedas nacional</h1>
     <div id="conversorDeMonedas">   
         <h3>Pesos CLP</h3>
-        <input id="montoInput" type="number" placeholder="Ingresa el  monto en CLP"> 
+        <input id="montoInput" type="number" placeholder="Ingresa el monto en CLP"> 
         <p>Moneda a convertir</p>
         <select name="moneda" id="monedasParaConvertir">
             <option value="dolar">Dólar</option>
@@ -19,7 +19,10 @@
         <button id="btnConvertir">Convertir</button>
         <span id="montoConvertido"></span>
     </div>
-
+    <h4>Cambios en los últimos 10 días</h4>
+    <div class="grafica">
+        <canvas id="myChart"></canvas>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
